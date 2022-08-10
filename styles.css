@@ -26,7 +26,7 @@ form {
   height: 34px;
 }
 
-select,
+#color,
 .select-wrapper,
 button {
   border-radius: 10px;
@@ -58,17 +58,17 @@ main {
   width: 110px;
 }
 
-.section-1 {
+.color-section:nth-of-type(1) {
   background-color: aquamarine;
 }
 
-.hex-section {
+.hex-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.hex-section p {
+.hex-container p {
   width: 60px;
   height: 46px;
   padding-top: 15px;
