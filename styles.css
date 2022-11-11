@@ -5,9 +5,17 @@
   color: #d5d4d8;
 }
 
+html {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
 #container {
   height: 550px;
-  width: 550px;
+  max-width: 1200px;
   margin: 0 auto;
   background-color: #1f2937;
 }
@@ -55,7 +63,7 @@ main {
 
 .section {
   height: 414px;
-  width: 110px;
+  width: 100%;
 }
 
 .color-section:nth-of-type(1) {
